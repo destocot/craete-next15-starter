@@ -1,0 +1,38 @@
+{
+  "name": "create-next15-starter",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "next",
+    "next.js"
+  ],
+  "description": "Create Next.js-powered React apps with one command",
+  "repository": {},
+  "author": "Khurram Ali",
+  "license": "MIT",
+  "bin": {
+    "create-next15-starter": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "ncc build src/index.ts -w -o dist",
+    "build": "ncc build src/index.ts -o dist"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.6",
+    "@types/node": "^22.10.2",
+    "@types/prompts": "^2.4.9",
+    "@types/validate-npm-package-name": "^4.0.2",
+    "commander": "^12.1.0",
+    "picocolors": "^1.1.1",
+    "prompts": "^2.4.2",
+    "tar": "^7.4.3",
+    "typescript": "^5.7.2",
+    "validate-npm-package-name": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
